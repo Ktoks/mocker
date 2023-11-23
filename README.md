@@ -5,9 +5,24 @@
 > _Think of it as a way to get sanitized data for testing_
 
 ## Architectural plan
+
 ### Path to a file with one record on one line
 > By default - Mocker will try and figure out what format your data needs to be in without any added options
+
 ### Number of records to mock
 > Think 10 to 1 Million - variable size depending on if you need a quick test or if you need to test for volume
+
 ### Options and Keys to select the delimiter, sort, allow for empty fields, etc...
 > This may be built out before the default is fully working - as it's more simple to _do_ than _guess_
+
+### Example data record:
+Mr.|Alan|Turing|000-001-0010|alan.turing@mocked.com|Binary Street|#0|New York NY, 10101|1k1111101000
+
+#### Column 0 is a Title - from a list of titles
+#### Columns 1 and 2 are _Name_s - generated from pre and post possibilities
+#### Column 3 is a _Phone_ - fully random digits
+#### Column 4 is an _Email_ - fully random or partially random
+#### Column 5 is an _Addr1_ - randomly selected number fields mixed with randomly selected _Name_s
+#### Column 6 is an _Addr2_ - _Addr1 + potential _House_ variables with numbers
+#### Column 7 is a _CSZ_ - a _City_, _State_ _Zip_
+#### Column 8 is an _AlphaNumeric ID_ - there are 2 types (stationary and random)
