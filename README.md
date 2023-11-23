@@ -1,7 +1,7 @@
 # Mocker mocks large data files
 ### Hopefully written in Nu - we'll see how that pans out
 
-## Sometimes clients don't want to sent test data, that's where Mocker comes in
+## Sometimes clients don't want to send test data, that's where Mocker comes in
 > _Think of it as a way to get sanitized data for testing_
 
 ## Architectural plan
