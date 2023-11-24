@@ -18,7 +18,6 @@
 
 
 ### Example data record:
-1   2    3      4            5                      6             7  8                  9
 Mr.|Alan|Turing|000-001-0010|alan.turing@mocked.com|Binary Street|#0|New York, NY 10101|1k1111101000
 
 ### Example command line (that could potentially mock the above record):
