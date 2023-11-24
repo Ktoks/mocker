@@ -23,11 +23,12 @@ Mr.|Alan|Turing|000-001-0010|alan.turing@mocked.com|Binary Street|#0|New York, N
 ### Example command line (that could potentially mock the above record):
 > mocker.nu infile 100 1=t 2=f 3=fl 4=p 5=e 6=1b 7=h+1n 8=c,sz 9=dnd9 -d |
 
-#### Column 0 is a Title - from a list of titles
-#### Columns 1 and 2 are _Name_s - generated from pre and post possibilities
-#### Column 3 is a _Phone_ - fully random digits
-#### Column 4 is an _Email_ - fully random or partially random
-#### Column 5 is an _Addr1_ - randomly selected _Name_ fields
-#### Column 6 is an _Addr2_ - randomly selected _Number_, _Name_, and _Housing_ fields 
-#### Column 7 is a _CSZ_ - a _City_, _State_ _Zip_
-#### Column 8 is an _AlphaNumeric ID_ - there are 2 types (stationary and random)
+#### Column 1 is a Title - from a list of titles
+#### Columns 2 and 2 are _Name_s - generated from pre and post possibilities
+#### Column 4 is a _Phone_ - fully random digits
+#### Column 5 is an _Email_ - fully random or partially random
+#### Column 6 is an _Addr1_ - randomly selected _Name_ fields
+#### Column 7 is an _Addr2_ - randomly selected _Number_, _Name_, and _Housing_ fields 
+#### Column 8 is a _CSZ_ - a _City_, _State_ _Zip_
+#### Column 9 is an _AlphaNumeric ID_ - there are 2 types (stationary and random)
+#### The final option above sets the delimiter to `|`
